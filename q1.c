@@ -10,7 +10,7 @@ int main() {
         sum += i;
     }
 
-    printf("Sum of first %d natural numbers = %d\n", n, sum);
+    printf("Sum of first %d natural numbers calculated = %d\n", n, sum);
 
     return 0;
 }
