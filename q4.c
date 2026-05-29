@@ -21,5 +21,5 @@ int main(void) {
 
     printf("The number of digits in number: %d", count);
     return 0;
-}
-             
+}                
+                                        
