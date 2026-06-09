@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main ()
-{
+{     
     int start, end, n, remainder, original, temp, result;
     
     printf("Enter the first and last number:");

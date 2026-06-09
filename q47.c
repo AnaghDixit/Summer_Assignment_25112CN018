@@ -7,7 +7,7 @@
   printf("%d ",firstTerm);  
   nextTerm = firstTerm + secondTerm;
   firstTerm = secondTerm;
-  secondTerm = nextTerm; }
+  secondTerm = nextTerm; } 
   }
  int main () {
      

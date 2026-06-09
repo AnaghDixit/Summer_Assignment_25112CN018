@@ -30,4 +30,4 @@ int main () {
      printf("The number is not perfect");
  }   
  return 0;    
-}
+} 
