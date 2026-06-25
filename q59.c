@@ -8,7 +8,7 @@
     printf("Display the elements of array:"); 
     for(i = 0; i <= n-1; i++) {
         scanf("%d",&arr[i]);
-    }
+    }                                       
      
     int temp;
     temp = arr[n-1];

@@ -4,7 +4,7 @@
  printf("Enter the number of elements:");
  scanf("%d",&n);  
  
- int arr[n];
+ int arr[n];               
  printf("Enter the elements which is display:");  
  for(i = 0; i <= n-1; i++)   {
     scanf("%d",&arr[i]);
