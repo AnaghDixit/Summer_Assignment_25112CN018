@@ -31,9 +31,9 @@ int main () {
         }
 
         if(found == false) {
-            printf("%d ", num);   // ✔ FIXED
+            printf("%d ", num);   
         }   
     }
 
     return 0; 
-}                                        
+}     
