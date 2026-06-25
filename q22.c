@@ -1,16 +1,20 @@
 #include <stdio.h>
 int main () {
     
-  int num, remainder, place = 1, binary = 0;  
-  printf("Enter the number in decimal form:");
+  int num, remainder, place = 1, decimal = 0;  
+  printf("Enter the number in binary form:");
   scanf("%d", &num);
   
   while ( num > 0 ) {
-     remainder = num % 2; 
-     binary = binary + remainder * place;
-     place = place * 10; 
-     num = num / 2; 
+     remainder = num % 10; 
+     if(remainder != 0 && remainder != 1) {
+     printf("Invalid binary number");  
+     return 0;    
+     }
+     decimal = decimal + remainder * place;
+     place = place * 2; 
+     num = num / 10; 
   }
-  printf("The number is in binary form is %d",binary);
+  printf("The number is in decimal form is %d",decimal);
   return 0;  
 }                                 
