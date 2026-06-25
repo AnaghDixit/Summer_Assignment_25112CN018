@@ -11,19 +11,13 @@ int main() {
     int b[n2];
     for(i = 0; i < n2; i++) scanf("%d", &b[i]);
 
-    for(i = 0; i < n1; i++)
-        printf("%d ", a[i]);
-
-    for(i = 0; i < n2; i++) {
-        int found = 0;
-        for(j = 0; j < n1; j++) {
-            if(b[i] == a[j]) {
-                found = 1;
+    for(i = 0; i < n1; i++) {
+        for(j = 0; j < n2; j++) {
+            if(a[i] == b[j]) {
+                printf("%d ", a[i]);
                 break;
             }
         }
-        if(found == 0)
-            printf("%d ", b[i]);
     }
 
     return 0;
