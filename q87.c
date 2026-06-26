@@ -6,7 +6,7 @@ int main() {
 
     printf("Enter a string: ");
     fgets(string, sizeof(string), stdin);
-
+  
     printf("Enter character to find frequency: ");
     scanf("%c", &ch);
 

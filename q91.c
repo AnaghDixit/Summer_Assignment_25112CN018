@@ -35,7 +35,7 @@ int main() {
                 str2[i] = str2[j];
                 str2[j] = temp;
             }
-        }
+        }   
     }
 
     if(strcmp(str1, str2) == 0)

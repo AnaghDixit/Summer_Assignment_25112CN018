@@ -5,7 +5,7 @@ int main() {
     int i, j, count;
 
     printf("Enter a string: ");
-    scanf("%s", string);
+    scanf("%s", string); 
 
     for(i = 0; string[i] != 0; i++) {
         count = 0;
