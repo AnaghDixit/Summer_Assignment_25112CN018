@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, prc = 1;
+    int n, i, sum = 0;
     printf("Enter the number:");
     scanf("%d",&n);
     
     while (n != 0) {
       i = n % 10;  
-      prc = prc * i;  
+      sum = sum + i;  
       n = n / 10;
     }
 
     
-    printf("The product of the digits of the number is %d",prc);
+    printf("The sum of the digits is %d",sum);
 
     return 0;
-}  
+}           
