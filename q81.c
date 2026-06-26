@@ -8,7 +8,7 @@
     
     while(string[i] != 0) {
         i++;
-    }
+    } 
      
     printf("length of the string:%d",i);
      
