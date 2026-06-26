@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+       
 int main() {
     char string[100];
     int i = 0, words = 1;
