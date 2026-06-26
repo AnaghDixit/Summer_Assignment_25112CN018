@@ -29,4 +29,4 @@ int main() {
         printf("%d ",b[i]);
     }
     return 0;
-}    
+}  
