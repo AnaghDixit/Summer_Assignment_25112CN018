@@ -8,7 +8,7 @@ int main() {
     scanf("%s", str1);
 
     printf("Enter second string: ");
-    scanf("%s", str2);
+    scanf("%s", str2);            
 
     if(strlen(str1) != strlen(str2)) {
         printf("Not Rotation");
